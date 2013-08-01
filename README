@@ -1,0 +1,2 @@
+mvn clean install dependency:copy-dependencies
+bin/bench.sh 10 | ruby bin/summarize.rb
